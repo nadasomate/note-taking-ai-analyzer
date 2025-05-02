@@ -3,7 +3,7 @@ from utils import search_apps
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("📊 Google Play App Visualizations")
+st.title("Google Play App Visualizations")
 
 # User input
 query = st.text_input("Enter a keyword to analyze apps:", value="note taking ai")
