@@ -43,6 +43,6 @@ if st.button("Analyze Sentiments"):
 
             # Display table and chart
             sentiment_df = pd.DataFrame(app_sentiments)
-            st.subheader("📊 Sentiment Scores by Application")
+            st.subheader("Sentiment Scores by Application")
             st.dataframe(sentiment_df)
             st.bar_chart(sentiment_df.set_index("App"))
