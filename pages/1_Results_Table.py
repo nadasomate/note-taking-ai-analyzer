@@ -2,7 +2,7 @@ import streamlit as st
 from utils import search_apps
 import pandas as pd
 
-st.title("🔍 Search Results – Google Play Apps")
+st.title("Search Results – Google Play Apps")
 
 # User input field
 query = st.text_input("Enter a keyword to search for apps:", value="note taking ai")
