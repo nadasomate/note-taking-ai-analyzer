@@ -2,7 +2,7 @@ import streamlit as st
 from utils import search_apps, get_reviews, analyze_reviews
 import pandas as pd
 
-st.title("🧠 Sentiment Analysis of User Reviews")
+st.title("Sentiment Analysis of User Reviews")
 
 # User input
 query = st.text_input("Enter a keyword to search for apps:", value="note taking ai")
